@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  line-height: 1.5;
+}
+
+.page__body {
+  min-width: 390px;
+  font-family: var(--font-family);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 var(--container-offset); 
+  max-width: calc(var(--container-width) + (var(--container-offset) * 2));
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.btn-reset {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.stop-scroll {
+  overflow: hidden;
+}
