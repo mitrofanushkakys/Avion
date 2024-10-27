@@ -1,0 +1,57 @@
+/* global */
+@import url("normalize.css");
+@import url("fonts.css");
+@import url("vars.css");
+@import url("settings.css");
+
+
+/* blocks */
+
+@import url("blocks/burger.css");
+@import url("blocks/btn.css");
+@import url("blocks/grid.css");
+@import url("blocks/social.css");
+@import url("blocks/header.css");
+@import url("blocks/logo.css");
+@import url("blocks/nav.css");
+@import url("blocks/stepper.css");
+@import url("blocks/form.css");
+@import url("blocks/centered.css");
+@import url("blocks/title.css");
+@import url("blocks/hero.css");
+@import url("blocks/benefits.css");
+@import url("blocks/products.css");
+@import url("blocks/product.css");
+@import url("blocks/newsletter.css");
+@import url("blocks/about.css");
+@import url("blocks/footer.css");
+
+
+
+/* ABOUT */
+
+@import url("blocks/notice.css");
+@import url("blocks/about-hero.css");
+@import url("blocks/brand-info.css");
+
+
+/* CATALOG */
+
+@import url("blocks/inner-hero.css");
+@import url("blocks/catalog.css");
+@import url("blocks/filters.css");
+@import url("blocks/custom-checkbox.css");
+
+
+/* PRODUCT */
+
+
+@import url("blocks/product-info.css");
+
+/* CART */
+
+@import url("blocks/cart.css");
+
+/* MEDIA */
+
+@import url("blocks/media.css");
